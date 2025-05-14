@@ -9,7 +9,7 @@ import IconButton from '@mui/material/IconButton';
 export default function NavMenu() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color='secondary'>
         <Toolbar>
           <IconButton
             size="large"
@@ -22,9 +22,9 @@ export default function NavMenu() {
           <Typography>
             Crocco
           </Typography>
-          <Button color="inherit" href='/home/'>Home</Button>
-          <Button color="inherit" href='/projects/'>Projects</Button>
-          <Button color="inherit" href='/about/'>About</Button>
+          <Button color="inherit" href='/'>Home</Button>
+          <Button color="inherit" href='projects'>Projects</Button>
+          <Button color="inherit" href='about'>About</Button>
           
         </Toolbar>
       </AppBar>

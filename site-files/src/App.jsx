@@ -1,13 +1,20 @@
 import './App.css'
+import Home from './pages/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Projects from './pages/Projects'
+import About from './pages/About'
 import NavMenu from './components/NavMenu'
 
+
 function App() {
-  return (
-  <>
-    <div>
-    <NavMenu />
-    </div>
-    </>)
+  return <BrowserRouter>
+  <NavMenu />
+  <Routes>
+    <Route path='/' element={<Home />} />
+    <Route path='projects' element={<Projects />} />
+    <Route path='about' element={<About />} />
+  </Routes>
+  </BrowserRouter>
 }
 
 export default App
