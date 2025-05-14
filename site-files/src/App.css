@@ -1,6 +1,3 @@
-body {
-  background-color: rgb(221, 234, 237);
-}
 .hero {
   display: flex;
   align-items: center;
@@ -18,35 +15,35 @@ body {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  box-shadow: 0px 2px 15px 2px rgb(202, 202, 202);
 }
 
 .bio h1 {
-  margin-bottom: var(--bottom-margin);
+  margin-bottom: 1rem;
 }
 
 .bio p {
-  line-height: var(--line-height);
+  line-height: 1.5;
   padding: 0.3rem 0;
 }
 
 .more-about {
-  background-color: var(--bg-color);
+  background-color: rgb(202, 202, 202);
   padding: 1rem 6rem;
 }
 
 .more-about h2 {
-  margin-bottom: var(--bottom-margin);
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 .more-about p {
-  line-height: var(--line-height);
+  line-height: 1.5;
   padding: 0.4rem;
 }
 
 .projects {
-  background-color: var(--bg-color);
+  background-color: rgb(172, 172, 172);
   padding: 32px 0;
   margin-top: 2rem;
 }
@@ -92,3 +89,24 @@ body {
   padding: 20px;
   margin: 10px;
 }
+
+.home {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.home-header {
+  margin-bottom: 1rem;
+}
+
+.skills img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+

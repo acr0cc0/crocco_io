@@ -13,7 +13,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function NavMenu() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" color='secondary'>
+      <AppBar position="static">
         <Toolbar>
           <Typography>
             Crocco

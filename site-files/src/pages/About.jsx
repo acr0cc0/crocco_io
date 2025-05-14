@@ -5,11 +5,11 @@ const About = () => (
         <section class="hero" id="about">
       <img
         src="assets/images/wfh_1.svg"
-        alt="jane-doe"
+        alt="me"
         loading="lazy"
         class="hero-img"
       />
-      <div class="bio animate__animated animate__shakeX">
+      <div class="bio">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
