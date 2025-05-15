@@ -4,7 +4,7 @@ const About = () => (
     <div>
         <section class="hero" id="about">
       <img
-        src="assets/images/wfh_1.svg"
+        src="../assets/images/wfh_1.svg"
         alt="me"
         loading="lazy"
         class="hero-img"
